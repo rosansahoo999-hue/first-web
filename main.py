@@ -1,6 +1,7 @@
 import os
 
-print(os.listdir())
-print(os.get_blocking())
 
-print(os.chdir("/"))
+# We are Using os module to get dictly
+print(os.listdir())
+
+print(os.getcwd())
